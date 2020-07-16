@@ -11,5 +11,10 @@ public class Main {
         System.out.println("Integer Minimum value = " + myMinIntValue);
         System.out.println("Integer Maximum value = " + myMaxIntValue);
 
+        byte myMinByteValue = Byte.MIN_VALUE;
+        byte myMaxByteValue = Byte.MAX_VALUE;
+
+        System.out.println("Minimum Byte Value = " + myMinByteValue);
+        System.out.println("Maximum Byte Value = " + myMaxByteValue);
     }
 }
