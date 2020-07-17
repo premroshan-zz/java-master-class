@@ -16,6 +16,6 @@ public class Main {
 
         boolean isCustomerOverTwentyOne = true;
 
-        System.out.println(isCustomerOverTwentyOne );
+        System.out.println(isCustomerOverTwentyOne);
     }
 }
