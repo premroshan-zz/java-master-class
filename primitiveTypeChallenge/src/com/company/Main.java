@@ -10,5 +10,9 @@ public class Main {
         long myLongValue = 50000 + 10 * ( myByteValue + myShortValue + myIntValue );
 
         System.out.println("The total is = " + myLongValue);
+
+        //additional parts
+        short myTotalShortValue = (short) ( myShortValue + myShortValue );
+        System.out.println(myTotalShortValue);
     }
 }
