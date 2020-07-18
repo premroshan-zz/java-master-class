@@ -39,5 +39,11 @@ public class Main {
 
         result -= 2;
         System.out.println("10 -2 =" + result);
+
+        boolean isAlien = false;
+        if(isAlien == true) {
+            System.out.println("It is not an alien");
+            System.out.println("And i am scared of aliens");
+        }
     }
 }
