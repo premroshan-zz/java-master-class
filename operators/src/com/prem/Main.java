@@ -75,5 +75,8 @@ public class Main {
         if(!isCar){
             System.out.println("Not a car");
         }
+
+        boolean wasCar = isCar ? true : false;
+        System.out.println(wasCar);
     }
 }
