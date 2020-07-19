@@ -78,5 +78,10 @@ public class Main {
 
         boolean wasCar = isCar ? true : false;
         System.out.println(wasCar);
+
+        int ageOfClient = 20;
+        boolean greateThanEighten = (ageOfClient >= 18 ) ? true : false;
+
+        System.out.println(greateThanEighten);
     }
 }
