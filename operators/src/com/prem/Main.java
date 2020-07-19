@@ -48,10 +48,32 @@ public class Main {
 
         int topscore = 100;
         if(topscore == 100){
-            System.out.println("Thats a high score");
+            System.out.println("That's a high score");
         }
         if(topscore != 100){
             System.out.println("Not a high score");
+        }
+        if(topscore >= 100){
+            System.out.println("Could be higher");
+        }
+
+        int secondTopScore = 60;
+        if( ( topscore > secondTopScore ) && ( topscore < 100 )){
+            System.out.println("Greater than second top score but less than 100");
+        }
+
+        if( ( topscore > secondTopScore ) || ( topscore < 100 )){
+            System.out.println("Greater than second top score or less than 100");
+        }
+
+        int newValue = 50;
+        if(newValue == 50){
+            System.out.println("This is a new value");
+        }
+
+        boolean isCar = false;
+        if(!isCar){
+            System.out.println("Not a car");
         }
     }
 }
