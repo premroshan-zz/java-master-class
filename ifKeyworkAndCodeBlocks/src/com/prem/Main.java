@@ -15,5 +15,9 @@ public class Main {
             System.out.println("This code is not 5000");
         }
 
+        if (gameOver == true){
+            int finalScore = score + ( levelCompleted * bonus );
+            System.out.println("The final score is = " + finalScore);
+        }
     }
 }
