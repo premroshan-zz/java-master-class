@@ -9,9 +9,10 @@ public class Main {
         int levelCompleted = 5;
         int bonus = 100;
 
-        if (score == 5000) {
-            System.out.println("Your score is 5000");
-            System.out.println("This was executed");
+        if (score < 5000 && score > 1000) {
+            System.out.println("Score is less than 5000 but greater than 1000");
+        } else {
+            System.out.println("This code is not 5000");
         }
 
     }
