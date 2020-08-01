@@ -19,5 +19,24 @@ public class Main {
                 System.out.println("was other than 1 - 5");
                 break;
         }
+        char switchCharacter = 'A';
+        switch (switchCharacter){
+            case 'A':
+                System.out.println("Character A");
+                break;
+            case 'B':
+                System.out.println("Character B");
+                break;
+            case 'C':
+                System.out.println("Character C");
+                break;
+            case 'D':
+                System.out.println("Character D");
+                break;
+            default:
+                System.out.println("Something Else");
+
+        }
+
     }
 }
